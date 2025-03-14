@@ -1,2 +1,14 @@
 py folder -> python3 -m uvicorn ocr:app --host 0.0.0.0 --port 8000 --reload
 human folder -> npm run dev
+
+
+python libraries
+pip3 install fastapi
+pip3 install uvicorn
+pip3 install opencv-python
+pip3 install pytesseract
+pip3 install pillow
+pip3 install numpy
+pip3 install python-multipart
+pip3 install fastapi[all]
+pip3 install aiofiles
