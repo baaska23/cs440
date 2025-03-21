@@ -46,7 +46,6 @@ async def process_image(file: UploadFile = File(...)):
         
         cv2.imwrite("processed_image.jpg", img)
         
-        # Perform OCR
         result = ocr_core(img, lang="mon")
         
         return {"text": result}
