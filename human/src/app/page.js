@@ -335,7 +335,7 @@ export default function Home() {
       </main>
       
       <footer className={`py-4 text-center text-sm ${darkMode ? 'text-[#8EB69B]' : 'text-[#235347]'} mt-12`}>
-        Mongolian OCR Tool - Team III © {new Date().getFullYear()}
+        Mongolian OCR Tool - Team IV © {new Date().getFullYear()}
       </footer>
     </div>
   );
